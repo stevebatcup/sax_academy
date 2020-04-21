@@ -1,7 +1,5 @@
 FROM ruby:2.7
 
-ENV RUBYOPT '-W:no-deprecated  -W:no-experimental'
-
 RUN apt-get update -yqq \
 		&& apt-get install -yqq --no-install-recommends \
 		postgresql-client vim nodejs \

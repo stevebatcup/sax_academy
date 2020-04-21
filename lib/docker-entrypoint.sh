@@ -21,4 +21,4 @@ if [[ -a /usr/src/app/tmp/pids/server.pid ]]; then
 	rm /usr/src/app/tmp/pids/server.pid
 fi
 
-bundle exec rails s -b 0.0.0.0 -p 4000 -P /usr/src/app/tmp/pids/server.pid
+RUBYOPT='-W:no-experimental -W:no-experimental' bundle exec rails s -b 0.0.0.0 -p 4000 -P /usr/src/app/tmp/pids/server.pid
