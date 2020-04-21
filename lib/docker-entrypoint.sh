@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-bundle check || bundle install --binstubs
+bundle install --binstubs
 
 if [ $RAILS_ENV = 'production' ]
 then
