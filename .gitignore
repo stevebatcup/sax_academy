@@ -37,5 +37,4 @@ config/_credentials.production.sample.yml
 /config/credentials/development.key
 
 /config/credentials/production.key
-
 /config/master.key
