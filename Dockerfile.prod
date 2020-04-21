@@ -1,6 +1,5 @@
 FROM ruby:2.7
 
-ENV DOCKER_HOST 178.128.38.102
 ENV RUBYOPT '-W:no-deprecated  -W:no-experimental'
 
 RUN apt-get update -yqq \
