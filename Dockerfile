@@ -6,12 +6,13 @@ RUN apt-get update -yqq \
 		&& rm -rf /var/lib/apt/lists
 
 ENV BUNDLE_PATH /gems
-ENV app /usr/src/app
-ENV PATH $app/bin:$PATH
+ENV APP_NAME sax_academy
+ENV APP_PATH /usr/src/app
+ENV PATH $APP_PATH/bin:$PATH
 
-WORKDIR $app
+WORKDIR $APP_PATH
 
-ADD . $app
+ADD . $APP_PATH
 
 EXPOSE 4000
 CMD ./lib/docker-entrypoint.sh
