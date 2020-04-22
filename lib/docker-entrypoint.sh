@@ -5,7 +5,7 @@ bundle check || bundle install
 if [ $RAILS_ENV = 'production' ]
 then
 	echo "Precompiling assets...."
-	bundle exec rails assets:precompile
+	rails assets:precompile
 
 	echo "Copying assets to NGINX"
 	mkdir -p /usr/share/nginx/html
@@ -21,4 +21,4 @@ if [[ -a /usr/src/app/tmp/pids/server.pid ]]; then
 	rm /usr/src/app/tmp/pids/server.pid
 fi
 
-RUBYOPT='-W:no-experimental -W:no-experimental' bundle exec rails s -b 0.0.0.0 -p 4000 -P /usr/src/app/tmp/pids/server.pid
+RUBYOPT='-W:no-deprecated -W:no-experimental' rails s -b 0.0.0.0 -p 4000 -P /usr/src/app/tmp/pids/server.pid

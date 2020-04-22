@@ -7,6 +7,7 @@ RUN apt-get update -yqq \
 
 ENV BUNDLE_PATH /gems
 ENV app /usr/src/app
+ENV PATH $app/bin:$PATH
 
 WORKDIR $app
 
