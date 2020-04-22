@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: https://github.com/stevebatcup/maawol.git
-  revision: b41ada9cb4786dd4133f43503953d6c48dc986f8
+  revision: fdae3228533ce4cb36b480cdd04fde0cd5d750cd
   specs:
-    maawol (0.1.3)
+    maawol (0.1.4)
       acts_as_commentable_with_threading
       acts_as_shopping_cart (~> 0.4.0)
       administrate (~> 0.13)
@@ -175,7 +175,7 @@ GEM
     excon (0.73.0)
     execjs (2.7.0)
     ffi (1.12.2)
-    fog-aws (3.6.2)
+    fog-aws (3.6.3)
       fog-core (~> 2.1)
       fog-json (~> 1.1)
       fog-xml (~> 0.1)
