@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: https://github.com/stevebatcup/maawol.git
-  revision: 3f607eb05980ca0d0bc41604a2e91baa57576ba6
+  revision: 675dbcbe795a97ba06244ea4a84fc2eb1b0778a1
   specs:
-    maawol (0.1.7)
+    maawol (0.1.10)
       acts_as_commentable_with_threading
       acts_as_shopping_cart (~> 0.4.0)
       administrate (~> 0.13)
@@ -23,6 +23,7 @@ GIT
       cocoon (~> 1.2)
       coffee-rails (~> 5.0)
       credit_card_validations (~> 3.5)
+      exception_notification
       fog-aws (~> 3.5)
       ladda-rails
       mailchimp-api (~> 2.0)
@@ -172,6 +173,9 @@ GEM
     email_validator (2.0.1)
       activemodel
     erubi (1.9.0)
+    exception_notification (4.4.0)
+      actionmailer (>= 4.0, < 7)
+      activesupport (>= 4.0, < 7)
     excon (0.73.0)
     execjs (2.7.0)
     ffi (1.12.2)
@@ -361,7 +365,7 @@ GEM
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    tinymce-rails (5.2.1)
+    tinymce-rails (5.2.2)
       railties (>= 3.1.1)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
