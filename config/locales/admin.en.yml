@@ -5,6 +5,9 @@ en:
       update: Update %{model}
       site_image:
         update: Update image
+      root_category:
+        create: Create Primary category
+        update: Update Primary category
     label:
       course:
         name: Name of course
@@ -16,6 +19,10 @@ en:
         lesson_ids: Tagged to these lessons
         show_in_cloud: Show in tag cloud
         when_associated: Tagged with
+      root_category:
+        resource_name_overrides:
+          multiple: Primary categories
+          singular: Primary category
       category:
         when_associated: In categories
         lesson_ids: Lessons in this category

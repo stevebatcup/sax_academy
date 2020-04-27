@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: https://github.com/stevebatcup/maawol.git
-  revision: 675dbcbe795a97ba06244ea4a84fc2eb1b0778a1
+  revision: b404d959f5153416179ed4c55108409f5fc98580
   specs:
-    maawol (0.1.10)
+    maawol (0.1.13)
       acts_as_commentable_with_threading
       acts_as_shopping_cart (~> 0.4.0)
       administrate (~> 0.13)
@@ -251,7 +251,7 @@ GEM
     method_source (1.0.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2019.1009)
+    mime-types-data (3.2020.0425)
     mimemagic (0.3.4)
     mini_magick (4.10.1)
     mini_mime (1.0.2)
