@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: https://github.com/stevebatcup/maawol.git
-  revision: b9d6d65e885e2b2f7bfe1b792650662c45eb7ed9
+  revision: bd16190bf5725732c2447c03b1f3d2336f997a54
   specs:
-    maawol (0.2.5)
+    maawol (0.2.7)
       acts_as_commentable_with_threading
       acts_as_shopping_cart (~> 0.4.0)
       administrate (~> 0.13)
