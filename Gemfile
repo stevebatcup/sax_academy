@@ -7,6 +7,7 @@ gem "maawol", git: "https://github.com/stevebatcup/maawol.git"
 gem "vimeo_me2", git: "https://github.com/robotixcorporation/vimeo_me2.git"
 gem 'mini_racer', platforms: :ruby
 gem 'sprockets', '3.7.2'
+gem 'rails-assets-ng-cookies', source: 'https://rails-assets.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
