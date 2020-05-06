@@ -8,6 +8,9 @@ en:
       root_category:
         create: Create Primary category
         update: Update Primary category
+      author:
+        create: Create Tutor
+        update: Update Tutor
     label:
       course:
         name: Name of course
@@ -33,14 +36,14 @@ en:
         subscription_referring_author_name: Referred by
       users_subscription_payment:
         processed_at: Paid at
-        author_fee: Author receives
-        author_name: Author
+        author_fee: Tutor receives
+        author_name: Tutor
       product_payment:
         user_name: Buyer
         processed_at: Bought at
         name: Item
-        author_fee: Author receives
-        author_name: Author
+        author_fee: Tutor receives
+        author_name: Tutor
       downloadable:
         when_associated: Downloadables
         image: Thumbnail
@@ -54,6 +57,7 @@ en:
         category_ids: In categories
         is_free: Available for free?
       user:
+        when_associated: Peronalised for students
         encrypted_password: Password
         status: Membership status
         is_admin: Administrator?
@@ -67,6 +71,8 @@ en:
         tmp_video_file: Video
         human_status: Status
         when_associated: Videos
+      audio_file:
+        when_associated: Audio files
       income_report:
         month_and_year: Month
         earnings: You earned
@@ -74,6 +80,11 @@ en:
         subscription_payments_count: Subscription payments
         profit_split_percentage: Your income percentage (Maawol gets the reaminder)
         total_income: Total income for website
+      author:
+        resource_name_overrides:
+          multiple: Tutors
+          singular: Tutor
+
   administrate:
     actions:
       confirm: Are you sure?
