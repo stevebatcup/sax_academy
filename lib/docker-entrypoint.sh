@@ -11,6 +11,9 @@ then
 	mkdir -p /usr/share/nginx/html/$APP_NAME
 	cp -R public/* /usr/share/nginx/html/$APP_NAME
 
+	echo "Create uploads dir"
+	mkdir -p /usr/share/nginx/html/$APP_NAME/uploads
+
 	echo "Copying NGINX config"
 	mkdir -p /etc/nginx/conf.d
 	cp config/nginx.conf /etc/nginx/conf.d/$APP_NAME.conf
